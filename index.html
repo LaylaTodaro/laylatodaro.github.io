@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sip Project</title>
+    <link rel="stylesheet" href="css/sipprojectcss.css">
+</head>
+
+<body>
+    
+    <nav>
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="reviews.html">reviews</a>
+        <a href="blog.html">blog</a>
+    </nav>
+         
+    <header class="header">
+        <span><h1>Sip Project</h1>
+            <video autoplay loop muted poster= "images/wineglass.png" id="bgvid">
+            <source src="video/wineglass.mp4" type="video/mp4"></video>
+        </span>  
+    </header>
+           
+    <section id="sec1">  
+        <hgroup>
+            <img src="images/winevector.png" alt="winevector">
+            <h1>Let's talk wine</h1>
+        </hgroup>
+    </section>
+    
+    <section id="sec2">
+        <img src="images/indexpic1.jpg" alt="wine8" id="f1">
+        <img src="images/wine5.jpg" alt="wine5" id="f2">
+    </section>
+    
+    <section id="sec3">
+       <span id="formwrapper">
+         <h2>Contact</h2>
+         <form action="MAILTO:layla.todaro@gmail.com" method="post" enctype="text/plain" validate>
+          
+           <label for="fname">First Name</label>
+           <input type="text" name="firstname" id="fname" placeholder="Layla" required>
+           
+           <label for="lname">Last Name</label>
+           <input type="text" name="firstname" id="lname" placeholder="Todaro" required>
+           
+           <label for="mail">E-mail</label>
+           <input type="email" name="email" id=mail placeholder="layla.todaro@gmail.com" required>
+           
+           <label for="tarea">Comments</label>
+           <textarea placeholder="tell us what you're sippin' on"></textarea>
+           
+           <input type="submit" value="send">
+           <input type="reset" value="reset">
+       </form>
+    </span>
+    </section>
+    
+</body>
+
+</html>
