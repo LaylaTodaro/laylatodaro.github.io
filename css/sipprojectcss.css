@@ -71,7 +71,7 @@ h2{
     width: auto;
     height: auto;
     z-index:  -1;
-    background: url(../images/wineglass.png) no-repeat;
+    background: url(../images/wineglass.png) fixed no-repeat center center;
     background-size: cover;
 }
 
